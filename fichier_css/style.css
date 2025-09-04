@@ -1,0 +1,346 @@
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/*Code css de l'entête*/
+
+header {
+  background-color: #262626;
+  padding: 0 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  padding: 0 50;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo img {
+  max-width: 150px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  color: #5FA8D3;
+  opacity: 0.8;
+  transition: color 0.7s ease;
+}
+
+/*Code css du hero banner*/
+
+.hero {
+  background-color: #fff;
+  height: 60vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  padding: 50px 80px 50px 80px;
+}
+
+.hero-content {
+  width:70%;
+  justify-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+span {
+  color: #5FA8D3;
+}
+
+.hero-content1 {
+  width:30%;
+  justify-items: center;
+  justify-content: center;
+}
+
+.hero-content h1 {
+  justify-self: center;
+}
+
+h1 {
+  color: #262626;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.im_dev {
+  width: 500px;
+  border-radius: 15px;
+}
+
+/*Code css des boutons*/
+
+.btn {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: #fff;
+  background-color: #5FA8D3;
+  border: none;
+  padding: 10px 25px;
+  margin: 5px;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn:hover {
+opacity: 0.5;
+  transition: background-color 0.9s ease;
+}
+
+/*Code css de section a propos*/
+
+.apropo_s, .projet_s, .competence_s {
+  background-color: #BEE9E8;
+padding: 50px 80px;
+border: solid;
+border-width: 0px 0px 1px 0px;
+border-color: #262626;
+}
+
+.a_proposcont1 {
+  text-align: center;
+  margin-bottom: 100px
+}
+
+h2 {
+  color: #5FA8D3;
+}
+
+.a_proposcont2 {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  column-gap: 200px;
+}
+
+.a_proposcont2_1 {
+  width: 100%;
+}
+
+p {
+  font-size: 18px;
+  width: 500px;
+}
+
+.im_dev1 {
+  width: 500px;
+  border-radius: 15px;
+}
+
+
+/*Code css de section mes projets*/
+
+
+.projet_s {
+  background-color: #FFF;
+padding: 100px 80px;
+border: solid;
+border-width: 0px 0px 0px 0px;
+}
+
+
+.p_rojets1 {
+  justify-content: center;
+  align-content: space-between;
+width: 30%;
+text-align: center;
+background-color: #BEE9E8;
+padding: 50px;
+border-radius: 15px;
+}
+
+
+.p_rojets1 p {
+  width: 100%;
+}
+
+.p_rojets2 {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  column-gap: 20px;
+}
+
+
+/*Code css de la section mes compétences*/
+
+.competence_s {
+padding: 100px 80px;
+border: solid;
+border-width: 0px 0px 0px 0px;
+}
+
+.competences1 {
+  justify-content: center;
+width: 30%;
+text-align: start;
+background-color: #fff;
+padding: 20px;
+border-radius: 15px;
+gap: 0px;
+}
+
+.competences1 p {
+  width: 100%;
+  margin-bottom: -4px;
+}
+
+.competences1 h4 {
+  justify-self: center;
+}
+
+.competences1 progress {
+  color: #5FA8D3;
+  width: 100%;
+  height: 20px;
+  margin-bottom: 20px;
+}
+
+.competence_s h2, h4 {
+  color: #262626;
+  
+}
+
+
+/*Code css de la section contact*/
+
+.formulaire {
+background-color: #262626;
+padding: 100px 80px;
+border: solid;
+border-width: 0px 0px 0px 0px;
+row-gap: 20px;
+}
+.formulaire h2 {
+  width: 900px;
+  font-size: 4rem;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 50px;
+  justify-self: center;
+}
+
+.contact-form {
+  display: block;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  width: 500px;
+  margin: 0 auto;
+}
+
+    .contact-form label {
+      text-align: left;
+      display: block;
+      margin-bottom: 5px;
+      font-size: 14px;
+      color: #fff;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 12px;
+      border: none;
+      border-radius: 6px;
+      margin-bottom: 15px;
+      font-size: 14px;
+    }
+
+    .row {
+      display: flex;
+      gap: 10px;
+    }
+
+    .row .col {
+      flex: 1;
+      margin: 0 10px;
+    }
+
+    .contact-form textarea {
+      height: 150px;
+      resize: none;
+    }
+
+    .contact-form button {
+      display: inline;
+      background-color: #5FA8D3;
+      color: #fff;
+      border: none;
+      padding: 12px 20px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+
+/*Code css de la section footer*/
+
+
+.footer {
+  display: flex;
+  background-color: #fff;
+  color: #262626;
+  padding: 20px 80px;
+  text-align: center;
+}
+
+.footer p {
+  margin: 5px 0;
+}
+
+.footer .social-icons {
+  margin-top: 10px;
+}
+
+.footer .social-icons a {
+  margin: 0 10px;
+}
+
+.footer .social-icons img {
+  width: 24px;
+  height: 24px;
+}
+
+.footer1 {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 100%;
+}
