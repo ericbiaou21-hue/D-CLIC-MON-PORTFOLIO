@@ -346,3 +346,68 @@ row-gap: 20px;
   align-items: center;
   width: 100%;
 }
+
+/*Code css pour le responsive*/
+
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+  }
+  }
+
+  .hero-content, .hero-content1 {
+    width: 100%;
+  }
+
+  .im_dev {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .a_proposcont2 {
+    flex-direction: column;
+    row-gap: 50px;
+  }
+
+  .a_proposcont2_1 p {
+    width: 100%;
+  }
+
+  .im_dev1 {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .p_rojets2 {
+    flex-direction: column;
+    row-gap: 50px;
+  }
+
+  .competence_s {
+    padding: 50px 20px;
+  }
+
+  .formulaire {
+    padding: 50px 20px;
+  }
+
+  .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  header {
+    flex-direction: column;
+    row-gap: 10px;
+    padding: 10px 20px;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+
+
